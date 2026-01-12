@@ -14,7 +14,7 @@ By preventing redundant agent loops and runaway inference, Aqta directly reduces
 
 ## 🤝 Contributing
 Aqta is currently in **Private Beta**.
-To become a design partner or request features, please email [contact@aqta.ai](mailto:contact@aqta.ai).
+To become a design partner or request features, please email [contact@aqta.ai](mailto:hello@aqta.ai).
 
 ---
 
