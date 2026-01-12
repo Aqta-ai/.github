@@ -19,4 +19,4 @@ To become a design partner or request features, please email [contact@aqta.ai](m
 ---
 
 ## 📜 License
-Proprietary. Copyright © 2026 Aqta AI Governance. All rights reserved.
+Proprietary. Copyright © 2026 Aqta. All rights reserved.
