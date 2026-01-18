@@ -10,12 +10,6 @@ By preventing redundant agent loops and runaway inference, Aqta directly reduces
 
 ---
 
-## 🤝 Contributing
-
-Aqta is currently in **Private Beta**. Request access, please email **hello@aqta.ai**.
-
----
-
 ## 📜 License
 
 **Proprietary. Copyright © 2026 Aqta. All rights reserved.**
@@ -26,6 +20,7 @@ Aqta is currently in **Private Beta**. Request access, please email **hello@aqta
 
 - **Website:** [aqta.ai](https://aqta.ai)
 - **Demo:** [demo.aqta.ai](https://demo.aqta.ai)
+- **Access:** [demo.aqta.ai](https://app.aqta.ai)
 - **Contact:** hello@aqta.ai
 
 ---
