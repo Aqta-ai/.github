@@ -20,7 +20,7 @@ By preventing redundant agent loops and runaway inference, Aqta directly reduces
 
 - **Website:** [aqta.ai](https://aqta.ai)
 - **Demo:** [demo.aqta.ai](https://demo.aqta.ai)
-- **Access:** [demo.aqta.ai](https://app.aqta.ai)
+- **Access:** [app.aqta.ai](https://app.aqta.ai)
 - **Contact:** hello@aqta.ai
 
 ---
