@@ -118,15 +118,6 @@ For healthcare AI systems:
 
 ---
 
-## 📚 Documentation
-
-- **Quick Start**: [docs.aqta.ai/quick-start](https://docs.aqta.ai/quick-start)
-- **API Reference**: [docs.aqta.ai/api](https://docs.aqta.ai/api)
-- **Healthcare Guide**: [docs.aqta.ai/healthcare](https://docs.aqta.ai/healthcare)
-- **Compliance**: [docs.aqta.ai/compliance](https://docs.aqta.ai/compliance)
-
----
-
 ## 🌍 Sustainability (Green AI)
 
 By preventing redundant agent loops and runaway inference, Aqta directly reduces wasted compute and associated energy consumption.
@@ -161,8 +152,6 @@ This is closed-source software. Contact us for licensing inquiries.
 - **Demo**: [demo.aqta.ai](https://demo.aqta.ai)
 - **Dashboard**: [app.aqta.ai](https://app.aqta.ai)
 - **Healthcare**: [aqta.ai/healthcare](https://aqta.ai/healthcare)
-- **Documentation**: [docs.aqta.ai](https://docs.aqta.ai)
-- **Status**: [status.aqta.ai](https://status.aqta.ai)
 
 ---
 
