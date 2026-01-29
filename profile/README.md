@@ -1,157 +1,138 @@
 # Aqta
 
-**System of Record for AI Agents**
+**AI Governance Platform**
 
-Aqta is an AI governance platform that prevents runaway costs, detects infinite loops and ensures compliance for AI systems.
+Stop runaway costs, detect loops, and ensure compliance for AI systems.
 
----
+## What is Aqta?
 
-## 🚀 What is Aqta?
-
-Aqta sits between your application and AI providers (OpenAI, Anthropic, Google, etc.) to:
-
-- **Stop runaway costs** before they happen
-- **Detect infinite loops** in real-time
-- **Route intelligently** across multiple AI providers
-- **Monitor compliance** for regulated industries
-- **Ensure patient safety** in healthcare AI (Aqta Health)
-
----
-
-## 🏥 Aqta Health
-
-Healthcare-specific AI governance:
-
-- **Medical Receipts**: Tamper-evident audit trails for every AI decision
-- **Bias Detection**: Monitor fairness across demographics (age, gender, race, SES)
-- **Human-in-the-Loop**: Route high-risk decisions to human reviewers
-- **Patient Portal**: Transparent AI records for patients
-- **HIPAA Compliance**: Built for healthcare from day one
-
-## 🛠️ Architecture
+Aqta sits between your app and AI providers (OpenAI, Anthropic, Perplexity, etc.) to prevent runaway costs, detect infinite loops, and ensure compliance.
 
 ```
-Your App → Aqta Gateway → AI Providers (OpenAI, Anthropic, etc.)
-              ↓
-         Dashboard (app.aqta.ai)
+Your App → Aqta Gateway → AI Providers
+               ↓
+          Dashboard
 ```
 
-**Domains:**
-- `aqta.ai` - Marketing site
-- `app.aqta.ai` - Dashboard (auth required)
-- `gateway.aqta.ai` - API Gateway
-
-**Tech Stack:**
-- Gateway: Python (FastAPI)
-- Dashboard: Next.js 14 (App Router)
-- Database: Supabase (PostgreSQL) or Aurora DSQL
-- Deployment: Vercel (dashboard) + Railway/Render (gateway)
-
----
-
-## 📦 Quick Start
+## Quick Start
 
 ### 1. Sign Up
-Visit [app.aqta.ai/signup](https://app.aqta.ai/signup) to create an account.
-
-We'll provision your API key within 48 hours (manual provisioning prevents abuse).
+Visit [app.aqta.ai/signup](https://app.aqta.ai/signup)
 
 ### 2. Integrate
-
-Replace your OpenAI endpoint:
+Works with any OpenAI-compatible API:
 
 ```python
-# Before
-import openai
-client = openai.OpenAI(api_key="sk-...")
-
-# After
-import openai
+# OpenAI
 client = openai.OpenAI(
-    api_key="aqta_live_...",  # Your Aqta API key
+    api_key="sk-...",
     base_url="https://gateway.aqta.ai/v1"
 )
+
+# Anthropic
+client = anthropic.Anthropic(
+    api_key="sk-ant-...",
+    base_url="https://gateway.aqta.ai/v1"
+)
+
+# Any OpenAI-compatible provider
+base_url="https://gateway.aqta.ai/v1"
 ```
 
-That's it! All your AI requests now flow through Aqta.
-
 ### 3. Monitor
+View your dashboard at [app.aqta.ai](https://app.aqta.ai)
 
-View your dashboard at [app.aqta.ai](https://app.aqta.ai):
-- Real-time cost tracking
-- Loop detection alerts
-- Request volume charts
-- Model usage breakdown
+## Features
 
----
+**Core:**
+- Loop detection & prevention
+- Multi-provider routing
+- Cost tracking & optimisation
+- Compliance audit trails
 
-## 🏥 Healthcare Quick Start
+**Healthcare (Aqta Health):**
+- Medical receipts (tamper-evident audit trails)
+- Bias detection across demographics
+- Human-in-the-loop workflows
+- Patient portal
+- HIPAA compliance
 
-For healthcare AI systems:
+## Tech Stack
 
-1. **Book a demo**: [aqta.ai/healthcare](https://aqta.ai/healthcare)
-2. **Custom onboarding**: We'll configure bias detection, HITL workflows, and compliance settings
-3. **Integrate**: Same API, healthcare features enabled automatically
-4. **Monitor**: View medical receipts, bias trends, and review workflows at [app.aqta.ai/healthcare](https://app.aqta.ai/healthcare)
+- **Gateway**: Python (FastAPI)
+- **Dashboard**: Next.js 14
+- **Database**: Supabase / Aurora DSQL
+- **Deployment**: Vercel + Railway/Render
 
----
+## Repository Structure
 
-## 🔒 Security & Compliance
+```
+aqta/
+├── gateway/          # Backend API (Python/FastAPI)
+│   ├── app/
+│   │   ├── main.py
+│   │   ├── providers.py
+│   │   └── healthcare/
+│   └── migrations/
+│
+├── dashboard/        # Frontend (Next.js/React)
+│   ├── app/
+│   └── components/
+│
+└── docs/            # Documentation
+```
 
-- **HIPAA Compliant**: Healthcare data handling meets HIPAA requirements
-- **GDPR Ready**: EU data residency and privacy controls
-- **SOC 2 Type II**: In progress
-- **ISO 27001**: Planned for 2026
+## Local Development
 
-**Security Features:**
+```bash
+# Gateway
+cd gateway
+pip install -r requirements.txt
+cp .env.example .env
+python -m app.main
+
+# Dashboard
+cd dashboard
+npm install
+cp .env.example .env.local
+npm run dev
+```
+
+Access:
+- Dashboard: http://localhost:3000
+- API: http://localhost:8000
+
+## Documentation
+
+- [Quick Start](./docs/quick-start/README.md)
+- [Healthcare Guide](./docs/guides/healthcare/README.md)
+- [API Reference](./docs/api/README.md)
+- [Deployment](./docs/deployment/README.md)
+
+## Domains
+
+- `aqta.ai` - Marketing
+- `app.aqta.ai` - Dashboard
+- `gateway.aqta.ai` - API Gateway
+
+## Security
+
+- HIPAA compliant
+- GDPR ready
 - End-to-end encryption
 - Audit logging
-- Role-based access control
-- Session management
-- API key rotation
+- SOC 2 Type II (in progress)
+
+## Support
+
+- Email: hello@aqta.ai
+- Status: [status.aqta.ai](https://status.aqta.ai)
+- Pricing: [app.aqta.ai/pricing](https://app.aqta.ai/pricing)
+
+## License
+
+Proprietary. © 2026 Aqta. All rights reserved.
 
 ---
 
-## 💰 Pricing
-
-[View full pricing →](https://aqta.ai/pricing)
-
----
-
-## 🌍 Sustainability (Green AI)
-
-By preventing redundant agent loops and runaway inference, Aqta directly reduces wasted compute and associated energy consumption.
-
-**Impact:**
-- Prevent unnecessary AI requests
-- Optimise model selection (use smaller models when possible)
-- Cache responses intelligently
-- Stop infinite loops before they waste energy
-
----
-
-## 🤝 Support
-
-- **Email**: hello@aqta.ai
-- **Status**: [status.aqta.ai](https://status.aqta.ai)
-
----
-
-## 📜 License
-
-**Proprietary. Copyright © 2026 Aqta. All rights reserved.**
-
-This is closed-source software. Contact us for licensing inquiries.
-
----
-
-## 🔗 Links
-
-- **Website**: [aqta.ai](https://aqta.ai)
-- **Demo**: [demo.aqta.ai](https://demo.aqta.ai)
-- **Dashboard**: [app.aqta.ai](https://app.aqta.ai)
-- **Healthcare**: [aqta.ai/healthcare](https://aqta.ai/healthcare)
-
----
-
-**Built with ❤️ for AI governance and compliance**
+Built for AI governance and compliance
