@@ -1,0 +1,32 @@
+# Environment files
+.env*
+!.env.example
+
+# Secrets and credentials
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Build outputs
+dist/
+build/
+*.log
+
+# Dependencies
+node_modules/
+__pycache__/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
