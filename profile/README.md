@@ -25,17 +25,17 @@ Works with any OpenAI-compatible API:
 # OpenAI
 client = openai.OpenAI(
     api_key="sk-...",
-    base_url="https://gateway.aqta.ai/v1"
+    base_url="https://api.aqta.ai/v1"
 )
 
 # Anthropic
 client = anthropic.Anthropic(
     api_key="sk-ant-...",
-    base_url="https://gateway.aqta.ai/v1"
+    base_url="https://api.aqta.ai/v1"
 )
 
 # Any OpenAI-compatible provider
-base_url="https://gateway.aqta.ai/v1"
+base_url="https://api.aqta.ai/v1"
 ```
 
 ### 3. Monitor
