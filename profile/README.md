@@ -1,70 +1,40 @@
-# Aqta
+# Aqta AI
 
-**Agentic Security Infrastructure**  
-Stop runaway costs, detect loops, and ensure governance for AI systems.
+One gateway for everything — Apps · IDEs · Production.
 
-## What is Aqta?
-
-Aqta sits between your app and AI providers (OpenAI, Anthropic, Perplexity, etc.) to prevent runaway costs, detect infinite loops, and ensure governance.
-
-```
-Your App → Aqta Gateway → AI Providers
-                ↓
-           Dashboard
-```
-
-## Quick Start
-
-### 1. Sign Up
-Visit [app.aqta.ai/signup](https://app.aqta.ai/signup)
-
-### 2. Integrate
-Works with any OpenAI-compatible API:
-
-```python
-# OpenAI
-client = openai.OpenAI(
-    api_key="sk-...",
-    base_url="https://api.aqta.ai/v1"
-)
-
-# Anthropic
-client = anthropic.Anthropic(
-    api_key="sk-ant-...",
-    base_url="https://api.aqta.ai/v1"
-)
-
-# Any OpenAI-compatible provider
-base_url="https://api.aqta.ai/v1"
-```
-
-### 3. Monitor
-View your dashboard at [app.aqta.ai](https://app.aqta.ai)
-
-## Features
-
-- **Loop Detection** - Automatically detect and prevent infinite loops
-- **Cost Tracking** - Monitor and optimise AI API costs
-- **Multi-Provider** - Works with OpenAI, Anthropic, Google, Perplexity
-- **Governance** - Audit trails and compliance reporting
-- **Network Intelligence** - Advanced threat detection (Team plan)
-
-## Documentation
-
-- [Get Started](https://app.aqta.ai/signup) - Create your free account
-- [View Demo](https://app.aqta.ai/demo) - See Aqta in action
-- [Pricing](https://app.aqta.ai/pricing) - Plans and features
-
-## Support
-
-- **Website:** [aqta.ai](https://aqta.ai)
-- **Email:** hello@aqta.ai
-- **Status:** [app.aqta.ai/status](https://app.aqta.ai/status)
-
-## License
-
-Proprietary. © 2026 Aqta Technologies Ltd. All rights reserved.
+Loop detection · Cost control · Extraction defense · Compliance  
+GDPR · Zero data training · EU AI Act ready
 
 ---
 
-**Built for agentic security and AI governance**
+## Products
+
+🛡️ **Aqta Core** — 6-layer governance gateway for production LLMs.  
+↳ Runaway agent protection · Cost circuit breakers · Universal control plane · Zero-retention architecture · Intelligent routing · Prompt injection defense · Human oversight layer · Full audit trail  
+🔗 [app.aqta.ai/demo](https://app.aqta.ai/demo)
+
+📚 **Testera** — Adaptive test prep that learns how you learn. Companion Tera spots your weak points and serves exactly the questions that move your score.  
+↳ GMAT · GRE · SAT · Personalised tutoring  
+🔗 [testera.org](https://testera.org)
+
+💬 **Aqi** — Transparent companion that shows its thinking, cites its sources, and keeps daily receipts so you stay in control.  
+↳ 16+ personalities · Voice mode · 11 languages  
+🔗 [aqi.aqta.ai](https://aqi.aqta.ai)
+
+🌍 **AqtaBio** — Geospatial early-warning system predicting disease emergence before outbreaks become crises.  
+↳ Environmental signals · Public health compliance · WHO/CDC ready  
+🔗 [aqtabio.org](https://aqtabio.org) · _Coming soon_
+
+---
+
+## Open Source
+
+🔮 **Project Spectra** — Apache 2.0 licensed.  · Coming soon
+
+All other repositories are proprietary. See individual repo LICENSE files for details.
+
+---
+
+## License
+
+© 2026 Aqta AI Governance Limited. All rights reserved unless otherwise stated.
