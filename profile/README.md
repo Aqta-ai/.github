@@ -9,7 +9,7 @@ GDPR · Zero data training · EU AI Act ready
 ## Products
 
 🛡️ **AqtaCore** — Runtime governance for production AI.
-🔗 [app.aqta.ai/demo](https://app.aqta.ai/demo)
+🔗 [app.aqta.ai/demo](https://app.aqta.ai/demo-video)
 
 📚 **Testera** — Adaptive test prep that learns your blind spots.
 🔗 [testera](https://testera.org)
