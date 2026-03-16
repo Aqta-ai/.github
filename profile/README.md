@@ -1,8 +1,6 @@
 # Aqta AI
 
-The trust layer for AI.
-
-GDPR · Zero data training · EU AI Act ready
+Building AI solutions for global challenges.
 
 ---
 
@@ -24,7 +22,7 @@ GDPR · Zero data training · EU AI Act ready
 
 ## Open Source
 
-🔮 **Project Spectra** — Apache 2.0 licensed.  · Coming soon
+🔮 **Project Spectra** — Apache 2.0 licensed.  · [Spectra](https://spectra.aqta.ai/)
 
 ✍️ **Project Bounds** — MIT licensed.  · [bounds](https://bounds.aqta.ai/)
 
