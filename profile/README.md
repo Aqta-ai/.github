@@ -12,7 +12,7 @@ Building AI solutions for global challenges.
 📚 **Testera** — Adaptive test prep that learns your blind spots.
 🔗 [testera](https://testera.org)
 
-💬 **Aqi** —  AI that shows its thinking and cites every answer.
+💬 **Aqi** —  AI companion that shows its work, history encrypted on your device.
 🔗 [aqi](https://aqi.aqta.ai)
 
 🌍 **AqtaBio** — Early warning for zoonotic disease spillover.
