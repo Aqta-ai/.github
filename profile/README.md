@@ -7,7 +7,7 @@ Building AI solutions for global challenges.
 ## Products
 
 🛡️ **AqtaCore** — Runtime governance for production AI.
-🔗 [app.aqta.ai/demo](https://app.aqta.ai/demo-video)
+🔗 [app.aqta.ai](https://app.aqta.ai)
 
 📚 **Testera** — Adaptive test prep that learns your blind spots.
 🔗 [testera](https://testera.org)
