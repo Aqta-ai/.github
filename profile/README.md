@@ -10,7 +10,7 @@ Aqta Technologies Limited · Dublin, Ireland · CRO 807530.
 
 ## Live products
 
-🛡️ **AqtaCore** — Runtime attestation gateway for agentic AI. Drop-in API across major LLM providers. Ed25519-signed verdict at inference. Closed pilot with design partners.
+🛡️ **AqtaCore** — Runtime attestation gateway for agentic AI. Drop-in API across major LLM providers. Ed25519-signed verdict at inference. In early access, applications open.
 [app.aqta.ai](https://app.aqta.ai)
 
 📄 **Bounds Pro** — On-device PDF redaction with tamper-evident audit trails. Five AI models in WebAssembly. Nothing touches a server.
