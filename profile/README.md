@@ -21,19 +21,6 @@ Aqta Technologies Limited · Dublin, Ireland · CRO 807530.
 
 ---
 
-## Aqta Labs
-
-🔮 **Spectra** · Real-time AI accessibility agent. Voice-controlled browser navigation, online or offline. Apache 2.0.
-[spectra.aqta.ai](https://spectra.aqta.ai) · [spectra](https://github.com/Aqta-ai/spectra)
-
-📚 **Testera** · Adaptive test prep. Knows what you're bad at. Remembers what you'll forget. Speaks back.
-[testera.org](https://testera.org)
-
-💬 **Aqi** · AI companion that shows its work. Citations, chain-of-thought, daily receipts. Encrypted with a key only you hold.
-[aqi.aqta.ai](https://aqi.aqta.ai)
-
----
-
 ## Public artefacts
 
 🔐 **[attestation-spec](https://github.com/Aqta-ai/attestation-spec)** — Open specification for AqtaCore receipts. Two reference verifier libraries (Python, TypeScript). Conformance test suite. CC BY 4.0 spec, Apache 2.0 code.
@@ -43,8 +30,6 @@ Aqta Technologies Limited · Dublin, Ireland · CRO 807530.
 📦 **[aqta-verify-receipt (npm)](https://www.npmjs.com/package/aqta-verify-receipt)** — `npm install aqta-verify-receipt`. TypeScript verifier for the same spec.
 
 🌍 **[aqtabio-research](https://github.com/Aqta-ai/aqtabio-research)** — Methodology, 25-event validation cohort, governance framework, MCP server source, regulatory pathway.
-
-🔮 **[spectra](https://github.com/Aqta-ai/spectra)** — Apache 2.0 voice-controlled browser agent.
 
 ✍️ **[bounds](https://github.com/Aqta-ai/bounds)** — Browser-only PDF redaction (free tier).
 
