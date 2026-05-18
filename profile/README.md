@@ -16,9 +16,6 @@ Aqta Technologies Limited · Dublin, Ireland · CRO 807530.
 🌍 **AqtaBio** · Public-health AI that commits spillover predictions to an append-only public ledger before events occur. Our first prospective Ebola signal preceded the WHO PHEIC declaration by eight days.
 [aqtabio.org](https://aqtabio.org) · [aqtabio-research](https://github.com/Aqta-ai/aqtabio-research)
 
-📄 **Bounds Pro** · Five-layer sensitive-document detection, fully on-device. We cannot leak what we never store.
-[bounds.pro](https://bounds.pro)
-
 ---
 
 ## Public artefacts
@@ -37,19 +34,6 @@ All other repositories are proprietary. See individual repo `LICENSE` files.
 
 ---
 
-## Why Aqta
+`hello@aqta.ai`
 
-A post-hoc log can be disputed. A pre-execution attestation can't. The EU AI Act, DORA, MiFID II, SR 11-7, GDPR, HIPAA, NIS2 — every regulator now expects auditable evidence for every AI decision. Aqta is the only AI governance layer that produces cryptographic evidence at the moment of decision, signed and chained, independently verifiable, with zero PII stored.
-
----
-
-## Get in touch
-
-- General — `hello@aqta.ai`
-- Security — `security@aqta.ai`
-- Privacy — `privacy@aqta.ai`
-- Legal — `legal@aqta.ai`
-
----
-
-© 2026 Aqta Technologies Limited. All rights reserved unless otherwise stated in individual repository licenses.
+© 2026 Aqta Technologies Limited.
