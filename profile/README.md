@@ -10,26 +10,26 @@ Aqta Technologies Limited · Dublin, Ireland · CRO 807530.
 
 ## Live products
 
-🛡️ **AqtaCore** — Runtime attestation gateway for agentic AI. Drop-in API across major LLM providers. Ed25519-signed verdict at inference. In early access, applications open.
+🛡️ **AqtaCore** · Runtime policy enforcement with Ed25519-signed attestation receipts. Audit-ready by design, not by report.
 [app.aqta.ai](https://app.aqta.ai)
 
-📄 **Bounds Pro** — On-device PDF redaction with tamper-evident audit trails. Five AI models in WebAssembly. Nothing touches a server.
+🌍 **AqtaBio** · Public-health AI that commits spillover predictions to an append-only public ledger before events occur. Our first prospective Ebola signal preceded the WHO PHEIC declaration by eight days.
+[aqtabio.org](https://aqtabio.org) · [aqtabio-research](https://github.com/Aqta-ai/aqtabio-research)
+
+📄 **Bounds Pro** · Five-layer sensitive-document detection, fully on-device. We cannot leak what we never store.
 [bounds.pro](https://bounds.pro)
 
 ---
 
 ## Aqta Labs
 
-🌍 **AqtaBio** — Zoonotic spillover risk forecasting. Research preview.
-[aqtabio.org](https://aqtabio.org) · [aqtabio-research](https://github.com/Aqta-ai/aqtabio-research)
-
-🔮 **Spectra** — Real-time AI accessibility agent. Voice-controlled browser navigation, online or offline. Apache 2.0.
+🔮 **Spectra** · Real-time AI accessibility agent. Voice-controlled browser navigation, online or offline. Apache 2.0.
 [spectra.aqta.ai](https://spectra.aqta.ai) · [spectra](https://github.com/Aqta-ai/spectra)
 
-📚 **Testera** — Adaptive test prep. Knows what you're bad at. Remembers what you'll forget. Speaks back.
+📚 **Testera** · Adaptive test prep. Knows what you're bad at. Remembers what you'll forget. Speaks back.
 [testera.org](https://testera.org)
 
-💬 **Aqi** — AI companion that shows its work. Citations, chain-of-thought, daily receipts. Encrypted with a key only you hold.
+💬 **Aqi** · AI companion that shows its work. Citations, chain-of-thought, daily receipts. Encrypted with a key only you hold.
 [aqi.aqta.ai](https://aqi.aqta.ai)
 
 ---
