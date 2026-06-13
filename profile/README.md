@@ -26,7 +26,7 @@ Aqta Technologies Limited · Dublin, Ireland · CRO 807530.
 
 📦 **[aqta-verify-receipt (npm)](https://www.npmjs.com/package/aqta-verify-receipt)** — `npm install aqta-verify-receipt`. TypeScript verifier for the same spec.
 
-🌍 **[aqtabio-research](https://github.com/Aqta-ai/aqtabio-research)** — Methodology, 25-event validation cohort, governance framework, MCP server source, regulatory pathway.
+🌍 **[aqtabio-research](https://github.com/Aqta-ai/aqtabio-research)** — Methodology, governance framework, MCP server source, regulatory pathway.
 
 ✍️ **[bounds](https://github.com/Aqta-ai/bounds)** — Browser-only PDF redaction (free tier).
 
