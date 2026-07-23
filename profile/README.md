@@ -23,11 +23,7 @@
 
 ### The next generation of "I said this."
 
-Signed records for AI decisions. Verifiable without us.
-
-A gateway in front of every AI call clears the decision and signs it, so a bank
-or a hospital can trust an AI agent with regulated work. The receipt is a
-credential the agent earns, checkable offline by anyone, without contacting us.
+Verifiable receipts for what AI decides. Signed at the source, checkable by anyone, offline.
 
 <br>
 
