@@ -19,14 +19,10 @@
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠛⠛⠒⠲⠦⠤⠤⠤⠖⠛⠛⠚⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 </pre>
 
-# Seal by Aqta
+**Seal by Aqta**
 
-### The next generation of "I said this."
+The next generation of "I said this"
 
-Verifiable receipts for what AI decides. Signed at the source, checkable by anyone, offline.
-
-<br>
-
-**[aqta.ai](https://aqta.ai)** · [Verify a receipt](https://aqta.ai/verify) · [The open spec](https://github.com/Aqta-ai/attestation-spec) · `npx aqta-verify-receipt`
+[aqta.ai](https://aqta.ai) · [Verify a receipt](https://aqta.ai/verify) · [The open spec](https://github.com/Aqta-ai/attestation-spec) · `npx aqta-verify-receipt`
 
 </div>
