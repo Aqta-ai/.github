@@ -2,9 +2,9 @@
 
 <img src="banner.png" alt="Who cleared this? Seal checks an AI agent's action against your rules before it runs, and signs the decision, refusals included. A hand-drawn sketch shows an agent proposing an action, Seal checking it, a signed refusal, and someone checking it later. Rón, the Seal mascot, sits at a laptop." width="100%">
 
-**Controls for AI that hold when challenged.**
+**Signed records of AI decisions.**
 
-[aqta.ai](https://aqta.ai) · [Try to break a real record](https://app.aqta.ai) · [Verify one](https://app.aqta.ai/verify)
+[aqta.ai](https://aqta.ai) · [See a signed record](https://app.aqta.ai) · [Verify a record](https://app.aqta.ai/verify)
 
 </div>
 
@@ -12,9 +12,9 @@
 
 ## Seal in three steps
 
-1. **An agent asks.** Before an AI agent acts, Seal checks the request against your rules.
-2. **Seal decides and signs.** Allowed or refused, the decision becomes a signed record.
-3. **Anyone can check it.** Later, a reviewer checks the record for themselves. Change one word and it fails.
+1. Before acting, an agent sends Seal a request.
+2. Seal checks your rules and signs the decision, allowed or refused.
+3. Anyone can verify the signed record later.
 
 ## Open for anyone
 
