@@ -1,23 +1,18 @@
 <div align="center">
 
-<img src="banner.png" alt="Who cleared this? Seal checks an AI agent's action against your rules before it runs, and signs the decision, refusals included. A hand-drawn sketch shows an agent proposing an action, Seal checking it, a signed refusal, and someone checking it later. Rón, the Seal mascot, sits at a laptop." width="100%">
+<img src="ron-wave.png" width="150" alt="Rón, the Seal mascot, waving">
 
-**Signed records of AI decisions.**
+**Security for AI agents that act.**
 
-[aqta.ai](https://aqta.ai) · [See a signed record](https://app.aqta.ai) · [Verify a record](https://app.aqta.ai/verify)
+When an agent is tricked, Seal makes sure it can't do anything a person didn't approve, and gives you proof anyone can check. Starting with payments.
+
+[aqta.ai/seal](https://aqta.ai/seal) · [Verify a record](https://app.aqta.ai/verify)
 
 </div>
 
-<img align="right" src="ron-stamp.png" width="200" alt="Rón the seal beside a Seal stamp">
-
-## Seal in three steps
-
-1. Before acting, an agent sends Seal a request.
-2. Seal checks your rules and signs the decision, allowed or refused.
-3. Anyone can verify the signed record later.
-
 ## Open for anyone
 
+- [**paybound**](https://github.com/Aqta-ai/paybound): an AI agent can only pay what a person approved, on BNB Chain testnet. [Try to break it](https://paybound-eight.vercel.app) · `pip install paybound`
 - [**attestation-spec**](https://github.com/Aqta-ai/attestation-spec): the record format, and the free checker anyone can run.
 - [**bounds**](https://github.com/Aqta-ai/bounds): PDF redaction that runs entirely on your device.
 
@@ -34,4 +29,4 @@ Then change `BLOCKED` to `ALLOWED` in the file and run it again.
 
 </details>
 
-<sub>Aqta Technologies Limited · Dublin, Ireland · [hello@aqta.ai](mailto:hello@aqta.ai)</sub>
+<sub>Aqta Technologies Limited · Dublin · [hello@aqta.ai](mailto:hello@aqta.ai)</sub>
